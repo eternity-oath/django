@@ -1,5 +1,5 @@
 """
-WSGI config for ttsx_lidi project.
+WSGI config for ttsx_ld project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ttsx_lidi.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ttsx_ld.settings")
 
 application = get_wsgi_application()
